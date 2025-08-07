@@ -1,0 +1,41 @@
+<!-- admin.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel do Administrador</title>
+  <script type="module" src="supabase.js"></script>
+  <script type="module" src="admin.js"></script>
+</head>
+<body>
+  <h1>Painel do Administrador</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>Status</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-cadastros"></tbody>
+  </table>
+</body>
+</html>
+
+<!-- status.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Status do Cadastro</title>
+  <script type="module" src="supabase.js"></script>
+  <script type="module" src="status.js"></script>
+</head>
+<body>
+  <h1>Status do seu Cadastro</h1>
+  <p id="mensagem-status">Carregando...</p>
+</body>
+</html>

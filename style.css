@@ -1,0 +1,32 @@
+.file-input-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: 2px dashed #cbd5e0;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.file-input-label:hover {
+    border-color: #4f46e5;
+    background-color: #f8fafc;
+}
+
+.file-input-label.dragover {
+    border-color: #4f46e5;
+    background-color: #eef2ff;
+}
+
+.file-name {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #4b5563;
+}
+
+.required-field::after {
+    content: " *";
+    color: #ef4444;
+}
